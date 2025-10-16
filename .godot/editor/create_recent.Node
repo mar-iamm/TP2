@@ -1,0 +1,15 @@
+Button
+Label
+CanvasLayer
+CollisionShape2D
+Area2D
+Node2D
+AudioStreamPlayer
+Node
+AudioStreamPlayer2D
+Camera2D
+AnimatedSprite2D
+CharacterBody2D
+Sprite2D
+AnimationPlayer
+TileMapLayer

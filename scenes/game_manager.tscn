@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://0e7y7m3pnwf5"]
+
+[ext_resource type="AudioStream" uid="uid://cbfel3vj1trid" path="res://assets/Sounds/Ambient 7.wav" id="1_70yv6"]
+[ext_resource type="Script" uid="uid://1taw111amex2" path="res://script/game_manager.gd" id="1_hwd4i"]
+
+[node name="GameManager" type="Node"]
+script = ExtResource("1_hwd4i")
+
+[node name="Background" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_70yv6")
+volume_db = -21.125
+autoplay = true
+
+[node name="SFX" type="AudioStreamPlayer" parent="."]
